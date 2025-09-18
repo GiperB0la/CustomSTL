@@ -1,4 +1,4 @@
-# 🚀 custom_std
+# 🚀 CustomSTD
 
 Implementation of STL-like containers and smart pointers in C++.
 
