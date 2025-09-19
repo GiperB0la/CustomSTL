@@ -43,6 +43,7 @@ int main()
 
     return 0;
 }
+```
 
 ---
 
@@ -66,3 +67,4 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 
 # Build (creates static library: .lib on Windows, .a on Linux/Mac)
 cmake --build . --config Release
+```
