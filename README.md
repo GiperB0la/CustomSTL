@@ -43,3 +43,26 @@ int main()
 
     return 0;
 }
+
+---
+
+## 🛠️ Build
+
+### 🔹 Prerequisites
+- **CMake ≥ 3.16**  
+- **C++17 compiler** (MSVC, g++, clang++)  
+
+---
+
+### 🔹 Build (Windows / Linux / MacOS)
+```powershell
+# Clone project
+git clone https://github.com/GiperB0la/CustomSTL.git
+cd CustomSTL
+mkdir build && cd build
+
+# Configure
+cmake .. -DCMAKE_BUILD_TYPE=Release
+
+# Build (creates static library: .lib on Windows, .a on Linux/Mac)
+cmake --build . --config Release
